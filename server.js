@@ -32,7 +32,7 @@ app.use(express.static('public'));
 app.use('/blogs', blogRouter);
 
 //listen port
-const port = 5000;
+const port = "https://likelion-crudapp.herokuapp.com/" || 5000;
 app.listen(port, () => {
   console.log(`Server is learning on http://localhost:${port}`)
 });
